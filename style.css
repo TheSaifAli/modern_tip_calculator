@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linkStyle{
+    @apply text-center cursor-pointer py-1 text-sm font-semibold rounded-md my-1 bg-[#D27D2D] w-full md:py-2 md:text-lg md:my-2
+    
+}
+.calBtnStyle{
+    @apply bg-[#556B2F] py-1 px-2 active:bg-[#6B8E23] hover:bg-[#516d19] lg:text-xl lg:h-10 rounded-md m-1
+}
